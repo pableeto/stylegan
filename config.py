@@ -10,9 +10,9 @@
 #----------------------------------------------------------------------------
 # Paths.
 
-result_dir = 'results'
+result_dir = '/mnt/pgan_experiments'
 data_dir = 'datasets'
-cache_dir = 'cache'
+cache_dir = '/mnt/pgan_data/cache'
 run_dir_ignore = ['results', 'datasets', 'cache']
 
 #----------------------------------------------------------------------------
