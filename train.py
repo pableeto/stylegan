@@ -35,7 +35,7 @@ if 1:
 
     # Dataset.
     #desc += '-ffhq';     dataset = EasyDict(tfrecord_dir='ffhq');                 train.mirror_augment = True
-    desc += '-texture';  dataset = EasyDict(tfrecord_dir='/mnt/pgan_data/texture_all/style_gan_format'); train.mirror_augment = True
+    desc += '-texture';  dataset = EasyDict(tfrecord_dir='/mnt/pgan_data/texture_all/style_gan_format', resolution = 128); train.mirror_augment = True
     #desc += '-ffhq512';  dataset = EasyDict(tfrecord_dir='ffhq', resolution=512); train.mirror_augment = True
     #desc += '-ffhq256';  dataset = EasyDict(tfrecord_dir='ffhq', resolution=256); train.mirror_augment = True
     #desc += '-celebahq'; dataset = EasyDict(tfrecord_dir='celebahq');             train.mirror_augment = True
