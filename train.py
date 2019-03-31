@@ -52,6 +52,8 @@ if 1:
     # Default options.
     # for snapshot
     train.resume_run_id = 00000
+    train.resume_kimg = 7107
+
     train.total_kimg = 15000
     sched.lod_initial_resolution = 8
     sched.G_lrate_dict = {128: 0.0015, 256: 0.002, 512: 0.003, 1024: 0.003}
